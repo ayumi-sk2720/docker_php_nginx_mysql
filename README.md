@@ -1,12 +1,13 @@
-# docker_php_nginx_mysql
-PHP, nginx, mysqlを使用してDockerコンテナを作成
+## 概要
+DockerでPHP, nginx, mysqlの環境を構築する
 
-# docker
-## ローカル初期起動 手順
-1. `$ make up-build`コマンドの実行
-2. [https://localhost:8000](https://localhost:8000) でアクセスすると、`Hello, world!`と表示される
-3. [https://localhost:8000/db.php](https://localhost:8000/db.php) でアクセスすると、DBに登録されているレコードの一覧が表示される
+## コンテナ起動
+* `$ make up-build`コマンドを実行する
+
+## 起動確認
+* [https://localhost:8000](https://localhost:8000) にアクセスすると、`Hello, world!`と表示される
+* [https://localhost:8000/db.php](https://localhost:8000/db.php) にアクセスすると、DBに登録されているレコードの一覧が表示される
 
 
-## コマンド
+## コマンドについて
 Makefileを参照すること
