@@ -3,7 +3,7 @@ up-build:
 	docker-compose up -d --build
 # 起動
 up:
-	docker-compos up -d
+	docker-compose up -d
 # 停止
 down:
 	docker-compose down
